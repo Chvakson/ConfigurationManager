@@ -1,0 +1,822 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "ConfigurationManager",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Configuration": {
+      "get": {
+        "tags": [
+          "Configuration"
+        ],
+        "summary": "Получить список всех конфигураций по фильтру",
+        "parameters": [
+          {
+            "name": "sort",
+            "in": "query",
+            "description": "Тип сортировки:\r\n\r\n0 - DateAsc (по дате, старые-новые)\r\n\r\n1 - DateDesc (по дате, новые-старые)\r\n\r\n2 - NameAsc (по имени А-Я)\r\n\r\n3 - NameDesc (по имени Я-А)\r\n",
+            "schema": {
+              "$ref": "#/components/schemas/ConfigurationSort"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ConfigurationResponse"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ConfigurationResponse"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ConfigurationResponse"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Configuration/user/{userId}": {
+      "get": {
+        "tags": [
+          "Configuration"
+        ],
+        "summary": "Получить конфигурации поьзователя",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ConfigurationResponse"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ConfigurationResponse"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ConfigurationResponse"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Configuration"
+        ],
+        "summary": "Создать конфигурацию для пользователя",
+        "description": "## Допустимые значения для настроек:\r\n\r\n### Тема (theme):\r\n  - \"light\" - светлая\r\n  - \"dark\" - тёмная\r\n  - \"system\" - системная\r\n  - \"high-contrast\" - высокая контрастность\r\n\r\n### Цвета (colors):\r\n  - background: \"#ffffff\", \"#1e1e1e\", \"#000000\"\r\n  - text: \"#000000\", \"#ffffff\", \"#1e1e1e\"\r\n  - accent: \"#007acc\", \"#0066b4\", \"#f48771\", \"#ffcc00\"\r\n\r\n### Шрифты (font):\r\n  - family: \"Segoe UI\", \"Arial\", \"Consolas\", \"Roboto\", \"system\"\r\n  - size: от 8 до 24 (8,9,10,11,12,14,16,18,20,24)\r\n  - lineHeight: от 1.0 до 3.0\r\n\r\n### Горячие клавиши (hotkeys):\r\n  - Модификаторы: Ctrl, Alt, Shift, Win\r\n  - Клавиши: A-Z, F1-F12, 0-9\r\n  - Примеры: \"Ctrl+S\", \"Alt+F4\", \"F5\"\r\n\r\n### Расположение окон (windowLayout):\r\n  - position: \"center\", \"left\", \"right\", \"top\", \"bottom\"\r\n  - sidebar.position: \"left\", \"right\"\r\n\r\nПолный пример смотри в модели запроса.",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateConfigurationRequest"
+              },
+              "example": {
+                "name": "Имя конфигурации",
+                "settingsJson": "{\r\n  \"theme\": {\r\n    \"theme\": \"system\",\r\n    \"colors\": {\r\n      \"background\": \"#ffffff\",\r\n      \"text\": \"#000000\",\r\n      \"accent\": \"#007acc\"\r\n    }\r\n  },\r\n  \"font\": {\r\n    \"family\": \"Segoe UI\",\r\n    \"size\": 14,\r\n    \"lineHeight\": 1.5\r\n  },\r\n  \"hotkeys\": {\r\n    \"keyBindings\": {\r\n      \"save\": \"Ctrl+S\",\r\n      \"copy\": \"Ctrl+C\",\r\n      \"paste\": \"Ctrl+V\",\r\n      \"find\": \"Ctrl+F\"\r\n    }\r\n  },\r\n  \"windowLayout\": {\r\n    \"fullscreen\": false,\r\n    \"width\": null,\r\n    \"height\": null,\r\n    \"position\": \"center\",\r\n    \"sidebar\": {\r\n      \"visible\": true,\r\n      \"width\": 250,\r\n      \"position\": \"right\"\r\n    }\r\n  }\r\n}"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateConfigurationRequest"
+              },
+              "example": {
+                "name": "Имя конфигурации",
+                "settingsJson": "{\r\n  \"theme\": {\r\n    \"theme\": \"system\",\r\n    \"colors\": {\r\n      \"background\": \"#ffffff\",\r\n      \"text\": \"#000000\",\r\n      \"accent\": \"#007acc\"\r\n    }\r\n  },\r\n  \"font\": {\r\n    \"family\": \"Segoe UI\",\r\n    \"size\": 14,\r\n    \"lineHeight\": 1.5\r\n  },\r\n  \"hotkeys\": {\r\n    \"keyBindings\": {\r\n      \"save\": \"Ctrl+S\",\r\n      \"copy\": \"Ctrl+C\",\r\n      \"paste\": \"Ctrl+V\",\r\n      \"find\": \"Ctrl+F\"\r\n    }\r\n  },\r\n  \"windowLayout\": {\r\n    \"fullscreen\": false,\r\n    \"width\": null,\r\n    \"height\": null,\r\n    \"position\": \"center\",\r\n    \"sidebar\": {\r\n      \"visible\": true,\r\n      \"width\": 250,\r\n      \"position\": \"right\"\r\n    }\r\n  }\r\n}"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateConfigurationRequest"
+              },
+              "example": {
+                "name": "Имя конфигурации",
+                "settingsJson": "{\r\n  \"theme\": {\r\n    \"theme\": \"system\",\r\n    \"colors\": {\r\n      \"background\": \"#ffffff\",\r\n      \"text\": \"#000000\",\r\n      \"accent\": \"#007acc\"\r\n    }\r\n  },\r\n  \"font\": {\r\n    \"family\": \"Segoe UI\",\r\n    \"size\": 14,\r\n    \"lineHeight\": 1.5\r\n  },\r\n  \"hotkeys\": {\r\n    \"keyBindings\": {\r\n      \"save\": \"Ctrl+S\",\r\n      \"copy\": \"Ctrl+C\",\r\n      \"paste\": \"Ctrl+V\",\r\n      \"find\": \"Ctrl+F\"\r\n    }\r\n  },\r\n  \"windowLayout\": {\r\n    \"fullscreen\": false,\r\n    \"width\": null,\r\n    \"height\": null,\r\n    \"position\": \"center\",\r\n    \"sidebar\": {\r\n      \"visible\": true,\r\n      \"width\": 250,\r\n      \"position\": \"right\"\r\n    }\r\n  }\r\n}"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConfigurationResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConfigurationResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConfigurationResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Configuration/{id}": {
+      "get": {
+        "tags": [
+          "Configuration"
+        ],
+        "summary": "Получить конфигурацию по id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConfigurationDetailResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConfigurationDetailResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConfigurationDetailResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Configuration"
+        ],
+        "summary": "Обновить конфигурацию",
+        "description": "## Допустимые значения для настроек:\r\n\r\n### Тема (theme):\r\n  - \"light\" - светлая\r\n  - \"dark\" - тёмная\r\n  - \"system\" - системная\r\n  - \"high-contrast\" - высокая контрастность\r\n\r\n### Цвета (colors):\r\n  - background: \"#ffffff\", \"#1e1e1e\", \"#000000\"\r\n  - text: \"#000000\", \"#ffffff\", \"#1e1e1e\"\r\n  - accent: \"#007acc\", \"#0066b4\", \"#f48771\", \"#ffcc00\"\r\n\r\n### Шрифты (font):\r\n  - family: \"Segoe UI\", \"Arial\", \"Consolas\", \"Roboto\", \"system\"\r\n  - size: от 8 до 24 (8,9,10,11,12,14,16,18,20,24)\r\n  - lineHeight: от 1.0 до 3.0\r\n\r\n### Горячие клавиши (hotkeys):\r\n  - Модификаторы: Ctrl, Alt, Shift, Win\r\n  - Клавиши: A-Z, F1-F12, 0-9\r\n  - Примеры: \"Ctrl+S\", \"Alt+F4\", \"F5\"\r\n\r\n### Расположение окон (windowLayout):\r\n  - position: \"center\", \"left\", \"right\", \"top\", \"bottom\"\r\n  - sidebar.position: \"left\", \"right\"\r\n\r\nПолный пример смотри в модели запроса.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateConfigurationRequest"
+              },
+              "example": {
+                "name": "Имя конфигурации",
+                "settingsJson": "{\r\n  \"theme\": {\r\n    \"theme\": \"system\",\r\n    \"colors\": {\r\n      \"background\": \"#ffffff\",\r\n      \"text\": \"#000000\",\r\n      \"accent\": \"#007acc\"\r\n    }\r\n  },\r\n  \"font\": {\r\n    \"family\": \"Segoe UI\",\r\n    \"size\": 14,\r\n    \"lineHeight\": 1.5\r\n  },\r\n  \"hotkeys\": {\r\n    \"keyBindings\": {\r\n      \"save\": \"Ctrl+S\",\r\n      \"copy\": \"Ctrl+C\",\r\n      \"paste\": \"Ctrl+V\",\r\n      \"find\": \"Ctrl+F\"\r\n    }\r\n  },\r\n  \"windowLayout\": {\r\n    \"fullscreen\": false,\r\n    \"width\": null,\r\n    \"height\": null,\r\n    \"position\": \"center\",\r\n    \"sidebar\": {\r\n      \"visible\": true,\r\n      \"width\": 250,\r\n      \"position\": \"right\"\r\n    }\r\n  }\r\n}"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateConfigurationRequest"
+              },
+              "example": {
+                "name": "Имя конфигурации",
+                "settingsJson": "{\r\n  \"theme\": {\r\n    \"theme\": \"system\",\r\n    \"colors\": {\r\n      \"background\": \"#ffffff\",\r\n      \"text\": \"#000000\",\r\n      \"accent\": \"#007acc\"\r\n    }\r\n  },\r\n  \"font\": {\r\n    \"family\": \"Segoe UI\",\r\n    \"size\": 14,\r\n    \"lineHeight\": 1.5\r\n  },\r\n  \"hotkeys\": {\r\n    \"keyBindings\": {\r\n      \"save\": \"Ctrl+S\",\r\n      \"copy\": \"Ctrl+C\",\r\n      \"paste\": \"Ctrl+V\",\r\n      \"find\": \"Ctrl+F\"\r\n    }\r\n  },\r\n  \"windowLayout\": {\r\n    \"fullscreen\": false,\r\n    \"width\": null,\r\n    \"height\": null,\r\n    \"position\": \"center\",\r\n    \"sidebar\": {\r\n      \"visible\": true,\r\n      \"width\": 250,\r\n      \"position\": \"right\"\r\n    }\r\n  }\r\n}"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateConfigurationRequest"
+              },
+              "example": {
+                "name": "Имя конфигурации",
+                "settingsJson": "{\r\n  \"theme\": {\r\n    \"theme\": \"system\",\r\n    \"colors\": {\r\n      \"background\": \"#ffffff\",\r\n      \"text\": \"#000000\",\r\n      \"accent\": \"#007acc\"\r\n    }\r\n  },\r\n  \"font\": {\r\n    \"family\": \"Segoe UI\",\r\n    \"size\": 14,\r\n    \"lineHeight\": 1.5\r\n  },\r\n  \"hotkeys\": {\r\n    \"keyBindings\": {\r\n      \"save\": \"Ctrl+S\",\r\n      \"copy\": \"Ctrl+C\",\r\n      \"paste\": \"Ctrl+V\",\r\n      \"find\": \"Ctrl+F\"\r\n    }\r\n  },\r\n  \"windowLayout\": {\r\n    \"fullscreen\": false,\r\n    \"width\": null,\r\n    \"height\": null,\r\n    \"position\": \"center\",\r\n    \"sidebar\": {\r\n      \"visible\": true,\r\n      \"width\": 250,\r\n      \"position\": \"right\"\r\n    }\r\n  }\r\n}"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Configuration"
+        ],
+        "summary": "Удалить конфигурацию",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Configuration/{id}/rollback/{versionNumber}": {
+      "post": {
+        "tags": [
+          "Configuration"
+        ],
+        "summary": "Выбрать версию конфигурации",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "versionNumber",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Configuration/user/{userId}/activate/{id}": {
+      "post": {
+        "tags": [
+          "Configuration"
+        ],
+        "summary": "Активировать конфигурацию",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Получить всех пользователей",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Создать нового поьзьзователя с дефолтной конфигурацией",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/User/{id}": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Получить пользователя по id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Обновить данные пользователя",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateUserRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateUserRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateUserRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Удалить пользователя",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/{id}/configurations": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Получить пользователя с конфигурациями",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserWithConfigurationsDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserWithConfigurationsDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserWithConfigurationsDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ConfigurationDetailResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "userId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "isActive": {
+            "type": "boolean"
+          },
+          "versionsCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "currentVersion": {
+            "$ref": "#/components/schemas/ConfigurationVersionDto"
+          },
+          "versions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ConfigurationVersionDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ConfigurationResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "userId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "isActive": {
+            "type": "boolean"
+          },
+          "versionsCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "currentVersion": {
+            "$ref": "#/components/schemas/ConfigurationVersionDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ConfigurationSort": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "ConfigurationVersionDto": {
+        "type": "object",
+        "properties": {
+          "versionNumber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "settingsJson": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "isActive": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateConfigurationRequest": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "settingsJson": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateUserRequest": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateConfigurationRequest": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "settingsJson": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateUserRequest": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserWithConfigurationsDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "configurations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ConfigurationResponse"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Configuration"
+    },
+    {
+      "name": "User"
+    }
+  ]
+}

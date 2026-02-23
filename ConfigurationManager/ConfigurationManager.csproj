@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>a6c176cd-32fd-4c19-85e7-5aedf0707fd9</UserSecretsId>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<DocumentationFile>D:\Repsitories\ConfigurationManager\ConfigurationManager\ConfigurationManager.xml</DocumentationFile>
+		<RunPostBuildEvent>Always</RunPostBuildEvent>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.2.9" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.3" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="10.1.4" />
+		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.1.4" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="10.0.1" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ConfigurationManager.Core\ConfigurationManager.Core.csproj" />
+	</ItemGroup>
+
+</Project>

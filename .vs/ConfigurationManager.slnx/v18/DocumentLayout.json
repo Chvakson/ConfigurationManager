@@ -1,0 +1,755 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repsitories\\ConfigurationManager_2_0\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FD0068-8B86-4E3E-94CC-5C96CA0D8452}|ConfigurationManager.Tests\\ConfigurationManager.Tests.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.tests\\services\\configurationservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FD0068-8B86-4E3E-94CC-5C96CA0D8452}|ConfigurationManager.Tests\\ConfigurationManager.Tests.csproj|solutionrelative:configurationmanager.tests\\services\\configurationservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FD0068-8B86-4E3E-94CC-5C96CA0D8452}|ConfigurationManager.Tests\\ConfigurationManager.Tests.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.tests\\services\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FD0068-8B86-4E3E-94CC-5C96CA0D8452}|ConfigurationManager.Tests\\ConfigurationManager.Tests.csproj|solutionrelative:configurationmanager.tests\\services\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62B1B6B-EF42-2B90-4D41-DF81BB014B9E}|ConfigurationManager.Db\\ConfigurationManager.Db.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.db\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62B1B6B-EF42-2B90-4D41-DF81BB014B9E}|ConfigurationManager.Db\\ConfigurationManager.Db.csproj|solutionrelative:configurationmanager.db\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62B1B6B-EF42-2B90-4D41-DF81BB014B9E}|ConfigurationManager.Db\\ConfigurationManager.Db.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.db\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62B1B6B-EF42-2B90-4D41-DF81BB014B9E}|ConfigurationManager.Db\\ConfigurationManager.Db.csproj|solutionrelative:configurationmanager.db\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62B1B6B-EF42-2B90-4D41-DF81BB014B9E}|ConfigurationManager.Db\\ConfigurationManager.Db.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.db\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62B1B6B-EF42-2B90-4D41-DF81BB014B9E}|ConfigurationManager.Db\\ConfigurationManager.Db.csproj|solutionrelative:configurationmanager.db\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62B1B6B-EF42-2B90-4D41-DF81BB014B9E}|ConfigurationManager.Db\\ConfigurationManager.Db.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.db\\repositories\\iconfigurationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62B1B6B-EF42-2B90-4D41-DF81BB014B9E}|ConfigurationManager.Db\\ConfigurationManager.Db.csproj|solutionrelative:configurationmanager.db\\repositories\\iconfigurationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62B1B6B-EF42-2B90-4D41-DF81BB014B9E}|ConfigurationManager.Db\\ConfigurationManager.Db.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.db\\repositories\\configurationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62B1B6B-EF42-2B90-4D41-DF81BB014B9E}|ConfigurationManager.Db\\ConfigurationManager.Db.csproj|solutionrelative:configurationmanager.db\\repositories\\configurationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62B1B6B-EF42-2B90-4D41-DF81BB014B9E}|ConfigurationManager.Db\\ConfigurationManager.Db.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.db\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62B1B6B-EF42-2B90-4D41-DF81BB014B9E}|ConfigurationManager.Db\\ConfigurationManager.Db.csproj|solutionrelative:configurationmanager.db\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62B1B6B-EF42-2B90-4D41-DF81BB014B9E}|ConfigurationManager.Db\\ConfigurationManager.Db.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.db\\models\\configurationversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62B1B6B-EF42-2B90-4D41-DF81BB014B9E}|ConfigurationManager.Db\\ConfigurationManager.Db.csproj|solutionrelative:configurationmanager.db\\models\\configurationversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62B1B6B-EF42-2B90-4D41-DF81BB014B9E}|ConfigurationManager.Db\\ConfigurationManager.Db.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.db\\models\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62B1B6B-EF42-2B90-4D41-DF81BB014B9E}|ConfigurationManager.Db\\ConfigurationManager.Db.csproj|solutionrelative:configurationmanager.db\\models\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\validators\\configurationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\validators\\configurationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\validators\\configurationattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\validators\\configurationattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\services\\iconfigurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\services\\iconfigurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\services\\configurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\services\\configurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\models\\configurationsort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\models\\configurationsort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\models\\signalr\\signalrevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\models\\signalr\\signalrevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\models\\dto\\configurationexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\models\\dto\\configurationexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\models\\dto\\configurationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\models\\dto\\configurationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\models\\dto\\mappings\\usermappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\models\\dto\\mappings\\usermappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\models\\dto\\mappings\\configurationmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\models\\dto\\mappings\\configurationmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\models\\configurationsettings\\windowlayoutsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\models\\configurationsettings\\windowlayoutsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\models\\configurationsettings\\userconfigurationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\models\\configurationsettings\\userconfigurationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\models\\configurationsettings\\themesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\models\\configurationsettings\\themesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\models\\configurationsettings\\hotkeysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\models\\configurationsettings\\hotkeysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\models\\configurationsettings\\fontsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\models\\configurationsettings\\fontsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\models\\configurationsettings\\colorsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\models\\configurationsettings\\colorsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\infrastructure\\notification\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\infrastructure\\notification\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\infrastructure\\notification\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\infrastructure\\notification\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\infrastructure\\hubs\\configurationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\infrastructure\\hubs\\configurationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\constants\\defaultconfigurationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\constants\\defaultconfigurationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager.core\\constants\\configurationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E5D154-BB49-42C8-8E6A-71DFBE2F364B}|ConfigurationManager.Core\\ConfigurationManager.Core.csproj|solutionrelative:configurationmanager.core\\constants\\configurationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7258273-C06F-9368-F276-C7D4C25BD3C3}|ConfigurationManager\\ConfigurationManager.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7258273-C06F-9368-F276-C7D4C25BD3C3}|ConfigurationManager\\ConfigurationManager.csproj|solutionrelative:configurationmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7258273-C06F-9368-F276-C7D4C25BD3C3}|ConfigurationManager\\ConfigurationManager.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A7258273-C06F-9368-F276-C7D4C25BD3C3}|ConfigurationManager\\ConfigurationManager.csproj|solutionrelative:configurationmanager\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|D:\\Repsitories\\ConfigurationManager_2_0\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7258273-C06F-9368-F276-C7D4C25BD3C3}|ConfigurationManager\\ConfigurationManager.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager\\controllers\\configurationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7258273-C06F-9368-F276-C7D4C25BD3C3}|ConfigurationManager\\ConfigurationManager.csproj|solutionrelative:configurationmanager\\controllers\\configurationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7258273-C06F-9368-F276-C7D4C25BD3C3}|ConfigurationManager\\ConfigurationManager.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager\\configurationmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A7258273-C06F-9368-F276-C7D4C25BD3C3}|ConfigurationManager\\ConfigurationManager.csproj|solutionrelative:configurationmanager\\configurationmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7258273-C06F-9368-F276-C7D4C25BD3C3}|ConfigurationManager\\ConfigurationManager.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A7258273-C06F-9368-F276-C7D4C25BD3C3}|ConfigurationManager\\ConfigurationManager.csproj|solutionrelative:configurationmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7258273-C06F-9368-F276-C7D4C25BD3C3}|ConfigurationManager\\ConfigurationManager.csproj|d:\\repsitories\\configurationmanager_2_0\\configurationmanager\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7258273-C06F-9368-F276-C7D4C25BD3C3}|ConfigurationManager\\ConfigurationManager.csproj|solutionrelative:configurationmanager\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 237,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-02-23T13:21:27.136Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Db\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Db\\AppDbContext.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Db\\AppDbContext.cs",
+              "RelativeToolTip": "ConfigurationManager.Db\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T14:16:42.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConfigurationValidator.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Validators\\ConfigurationValidator.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Validators\\ConfigurationValidator.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Validators\\ConfigurationValidator.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Validators\\ConfigurationValidator.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T14:16:22.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Services\\IUserService.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Services\\IUserService.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T14:16:15.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ConfigurationConstants.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Constants\\ConfigurationConstants.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Constants\\ConfigurationConstants.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Constants\\ConfigurationConstants.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Constants\\ConfigurationConstants.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowDoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:19:20.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WindowLayoutSettings.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\ConfigurationSettings\\WindowLayoutSettings.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Models\\ConfigurationSettings\\WindowLayoutSettings.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\ConfigurationSettings\\WindowLayoutSettings.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Models\\ConfigurationSettings\\WindowLayoutSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T12:48:27.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ThemeSettings.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\ConfigurationSettings\\ThemeSettings.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Models\\ConfigurationSettings\\ThemeSettings.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\ConfigurationSettings\\ThemeSettings.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Models\\ConfigurationSettings\\ThemeSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T12:48:24.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ColorSettings.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\ConfigurationSettings\\ColorSettings.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Models\\ConfigurationSettings\\ColorSettings.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\ConfigurationSettings\\ColorSettings.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Models\\ConfigurationSettings\\ColorSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T12:48:21.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FontSettings.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\ConfigurationSettings\\FontSettings.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Models\\ConfigurationSettings\\FontSettings.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\ConfigurationSettings\\FontSettings.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Models\\ConfigurationSettings\\FontSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T12:48:18.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HotkeySettings.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\ConfigurationSettings\\HotkeySettings.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Models\\ConfigurationSettings\\HotkeySettings.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\ConfigurationSettings\\HotkeySettings.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Models\\ConfigurationSettings\\HotkeySettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T12:30:00.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DefaultConfigurationSettings.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Constants\\DefaultConfigurationSettings.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Constants\\DefaultConfigurationSettings.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Constants\\DefaultConfigurationSettings.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Constants\\DefaultConfigurationSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T12:30:08.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserConfigurationSettings.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\ConfigurationSettings\\UserConfigurationSettings.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Models\\ConfigurationSettings\\UserConfigurationSettings.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\ConfigurationSettings\\UserConfigurationSettings.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Models\\ConfigurationSettings\\UserConfigurationSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T12:29:56.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConfigurationAttributes.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Validators\\ConfigurationAttributes.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Validators\\ConfigurationAttributes.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Validators\\ConfigurationAttributes.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Validators\\ConfigurationAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T12:11:27.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ConfigurationManager\\appsettings.Development.json",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager\\appsettings.Development.json",
+              "RelativeToolTip": "ConfigurationManager\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-23T11:59:09.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager\\appsettings.json",
+              "RelativeDocumentMoniker": "ConfigurationManager\\appsettings.json",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager\\appsettings.json",
+              "RelativeToolTip": "ConfigurationManager\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-23T11:59:05.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Db\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Db\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Db\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ConfigurationManager.Db\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T09:16:29.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ConfigurationManager.csproj",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager\\ConfigurationManager.csproj",
+              "RelativeDocumentMoniker": "ConfigurationManager\\ConfigurationManager.csproj",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager\\ConfigurationManager.csproj",
+              "RelativeToolTip": "ConfigurationManager\\ConfigurationManager.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-23T07:39:34.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConfigurationServiceTests.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Tests\\Services\\ConfigurationServiceTests.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Tests\\Services\\ConfigurationServiceTests.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Tests\\Services\\ConfigurationServiceTests.cs",
+              "RelativeToolTip": "ConfigurationManager.Tests\\Services\\ConfigurationServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T07:39:55.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ConfigurationSort.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\ConfigurationSort.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Models\\ConfigurationSort.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\ConfigurationSort.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Models\\ConfigurationSort.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T07:16:41.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IConfigurationService.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Services\\IConfigurationService.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Services\\IConfigurationService.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Services\\IConfigurationService.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Services\\IConfigurationService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T19:48:34.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConfigurationService.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Services\\ConfigurationService.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Services\\ConfigurationService.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Services\\ConfigurationService.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Services\\ConfigurationService.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAOkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T18:48:24.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Services\\UserService.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Services\\UserService.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Services\\UserService.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAuwG8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T17:39:14.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager\\Program.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager\\Program.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager\\Program.cs",
+              "RelativeToolTip": "ConfigurationManager\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T14:26:13.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ConfigurationExamples.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\Dto\\ConfigurationExamples.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Models\\Dto\\ConfigurationExamples.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\Dto\\ConfigurationExamples.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Models\\Dto\\ConfigurationExamples.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T14:19:16.429Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 203,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Db\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Db\\Repositories\\IUserRepository.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Db\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "ConfigurationManager.Db\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T14:16:38.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Db\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Db\\Models\\User.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Db\\Models\\User.cs",
+              "RelativeToolTip": "ConfigurationManager.Db\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T14:16:32.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SignalREvents.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\SignalR\\SignalREvents.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Models\\SignalR\\SignalREvents.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\SignalR\\SignalREvents.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Models\\SignalR\\SignalREvents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T14:16:09.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserMappings.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\Dto\\Mappings\\UserMappings.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Models\\Dto\\Mappings\\UserMappings.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\Dto\\Mappings\\UserMappings.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Models\\Dto\\Mappings\\UserMappings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T14:16:00.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Infrastructure\\Notification\\INotificationService.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Infrastructure\\Notification\\INotificationService.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Infrastructure\\Notification\\INotificationService.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Infrastructure\\Notification\\INotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T09:52:24.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Infrastructure\\Notification\\NotificationService.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Infrastructure\\Notification\\NotificationService.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Infrastructure\\Notification\\NotificationService.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Infrastructure\\Notification\\NotificationService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwCcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T09:52:25.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ConfigurationHub.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Infrastructure\\Hubs\\ConfigurationHub.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Infrastructure\\Hubs\\ConfigurationHub.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Infrastructure\\Hubs\\ConfigurationHub.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Infrastructure\\Hubs\\ConfigurationHub.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwCEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T07:09:48.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\Dto\\UserDto.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Models\\Dto\\UserDto.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\Dto\\UserDto.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Models\\Dto\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T08:25:23.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ConfigurationManager\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwEMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T08:17:16.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IConfigurationRepository.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Db\\Repositories\\IConfigurationRepository.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Db\\Repositories\\IConfigurationRepository.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Db\\Repositories\\IConfigurationRepository.cs",
+              "RelativeToolTip": "ConfigurationManager.Db\\Repositories\\IConfigurationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T19:26:28.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ConfigurationMappings.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\Dto\\Mappings\\ConfigurationMappings.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Models\\Dto\\Mappings\\ConfigurationMappings.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\Dto\\Mappings\\ConfigurationMappings.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Models\\Dto\\Mappings\\ConfigurationMappings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T19:05:16.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ConfigurationDto.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\Dto\\ConfigurationDto.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Core\\Models\\Dto\\ConfigurationDto.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Core\\Models\\Dto\\ConfigurationDto.cs",
+              "RelativeToolTip": "ConfigurationManager.Core\\Models\\Dto\\ConfigurationDto.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAewBsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T19:05:07.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Db\\Models\\Configuration.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Db\\Models\\Configuration.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Db\\Models\\Configuration.cs",
+              "RelativeToolTip": "ConfigurationManager.Db\\Models\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T19:04:59.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConfigurationVersion.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Db\\Models\\ConfigurationVersion.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Db\\Models\\ConfigurationVersion.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Db\\Models\\ConfigurationVersion.cs",
+              "RelativeToolTip": "ConfigurationManager.Db\\Models\\ConfigurationVersion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T19:04:50.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConfigurationRepository.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Db\\Repositories\\ConfigurationRepository.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Db\\Repositories\\ConfigurationRepository.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Db\\Repositories\\ConfigurationRepository.cs",
+              "RelativeToolTip": "ConfigurationManager.Db\\Repositories\\ConfigurationRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T18:38:57.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ConfigurationController.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager\\Controllers\\ConfigurationController.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager\\Controllers\\ConfigurationController.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager\\Controllers\\ConfigurationController.cs",
+              "RelativeToolTip": "ConfigurationManager\\Controllers\\ConfigurationController.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAcwCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T18:38:57.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserServiceTests.cs",
+              "DocumentMoniker": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Tests\\Services\\UserServiceTests.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.Tests\\Services\\UserServiceTests.cs",
+              "ToolTip": "D:\\Repsitories\\ConfigurationManager_2_0\\ConfigurationManager.Tests\\Services\\UserServiceTests.cs",
+              "RelativeToolTip": "ConfigurationManager.Tests\\Services\\UserServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T17:39:21.418Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 29,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

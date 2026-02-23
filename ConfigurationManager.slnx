@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="ConfigurationManager.Core/ConfigurationManager.Core.csproj" Id="05e5d154-bb49-42c8-8e6a-71dfbe2f364b" />
+  <Project Path="ConfigurationManager.Db/ConfigurationManager.Db.csproj" />
+  <Project Path="ConfigurationManager.Tests/ConfigurationManager.Tests.csproj" Id="b7fd0068-8b86-4e3e-94cc-5c96ca0d8452" />
+  <Project Path="ConfigurationManager/ConfigurationManager.csproj" />
+</Solution>

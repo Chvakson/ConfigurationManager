@@ -1,0 +1,6 @@
+@ConfigurationManager_HostAddress = http://localhost:5223
+
+GET {{ConfigurationManager_HostAddress}}/users/
+Accept: application/json
+
+###
