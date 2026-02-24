@@ -42,8 +42,9 @@ TestResults/
 *.vcxproj.filters
 
 ## Игнорировать файлы базы данных
-*.db
 *.db-journal
+*.db
+!ConfigurationManager.Db/
 
 ## Игнорировать ключи и секреты
 appsettings.*.json
