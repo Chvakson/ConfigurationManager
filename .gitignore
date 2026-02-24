@@ -1,0 +1,50 @@
+## Игнорировать временные файлы Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Игнорировать результаты сборки
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+## Игнорировать файлы, создаваемые инструментами
+*.swp
+*.swo
+*.*~
+*.cache
+*.dbmdl
+*.pubxml
+*.publishsettings
+*.tmp
+
+## Игнорировать пользовательские настройки NuGet
+*.nuget.props
+*.nuget.targets
+
+## Игнорировать логи и результаты тестов
+TestResults/
+*.trx
+*.tmp
+*.log
+*.vspx
+*.sdf
+*.opendb
+*.vcxproj.filters
+
+## Игнорировать файлы базы данных
+*.db
+*.db-journal
+
+## Игнорировать ключи и секреты
+appsettings.*.json
+secrets.json
